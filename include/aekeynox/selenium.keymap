@@ -1,4 +1,4 @@
-// Selenium keymap:
+gggg// Selenium keymap:
 // https://github.com/OneDeadKey/selenium
 
 #include <dt-bindings/zmk/bt.h> // bluetooth behaviors (see fn/media layer)
@@ -86,10 +86,10 @@
     nav_num_layer: nav_num_layer {
       display-name = "NavNum";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
-        &trans  ,  S_DLLR  &kp HOME &kp UP   &kp PG_UP   &none   ,   S_STAR S_N7 S_N8  S_N9  S_FSLH  ,  &trans ,
-        &trans  ,  S_EQUAL   &kp LEFT &kp DOWN &kp RIGHT &none   ,   S_PLUS S_N4  S_N5  S_N6  S_MINUS    ,  &trans ,
-        &trans  ,  X_UNDO   X_CUT    X_COPY   X_PASTE   X_REDO      ,   S_COMMA            S_N1  S_N2  S_N3  S_DOT   ,  &trans ,
-              &kp LA(F4) , &trans , &none   ,   &none , S_N0 , &kp LEFT_SHIFT
+        &trans  ,  S_DLLR  &kp HOME &kp UP   &kp PG_UP   &none   ,   S_STAR S_N7 S_N8  S_N9  S_FSLH   ,  &trans ,
+        &trans  ,  S_EQUAL   &kp LEFT &kp DOWN &kp RIGHT &none   ,   S_PLUS S_N4  S_N5  S_N6  S_MINUS ,  &trans ,
+        &trans  ,  &kp E  &kp END &none  &kp PG_DN  S_PRCNT      ,   S_DOT S_N1  S_N2  S_N3  S_COMMA  ,  &trans ,
+              &none , &trans , &none   ,   &none , S_N0 , &kp LEFT_SHIFT
       )>;
     };
 
