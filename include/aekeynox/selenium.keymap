@@ -40,7 +40,7 @@
         &kp ESCAPE    ,  &kp Q  &kp W  &kp E  &kp R  &kp T   ,   &kp Y  &kp U  &kp I     &kp O   &kp P     ,  &kp ENTER ,
         &kp TAB ,  HRM_A  HRM_S  HRM_D  HRM_F  &kp G   ,   &kp H  HRM_J  HRM_K     HRM_L   HRM_SEMI  ,  &kp RIGHT     ,
         &none ,  &kp Z  &kp X  &kp C  &kp V  &kp B   ,   &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH  ,  &none    ,
-               &kp BACKSPACE , &sl NAV_NUM_LAYER ,  &sk LEFT_SHIFT   ,   &kp none , &mt RIGHT_ALT SPACE , &mt FN_MEDIA_LAYER DELETE
+               &kp BACKSPACE , &sl NAV_NUM_LAYER ,  &sk LEFT_SHIFT   ,   &kp none , &hrm RIGHT_ALT SPACE , &sc FN_MEDIA_LAYER DELETE
       )>;
     };
 
