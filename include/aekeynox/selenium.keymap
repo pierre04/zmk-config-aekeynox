@@ -1,4 +1,4 @@
-gggg// Selenium keymap:
+// Selenium keymap:
 // https://github.com/OneDeadKey/selenium
 
 #include <dt-bindings/zmk/bt.h> // bluetooth behaviors (see fn/media layer)
