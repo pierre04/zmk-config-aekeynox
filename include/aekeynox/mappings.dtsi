@@ -38,6 +38,7 @@
 / {
   behaviors {
     TWO_LEVEL_KEY(bt_sel1_clr, &bt BT_SEL 1, &bt BT_CLR)
+    TWO_LEVEL_KEY(un_perso, S_N2, &digraph LS(N2) LS(SPC))
   };
 
   macros {
