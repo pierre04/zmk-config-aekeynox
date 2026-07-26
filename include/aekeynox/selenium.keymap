@@ -87,7 +87,7 @@
       display-name = "NavNum";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
         &trans  ,  S_DLLR  &kp HOME &kp UP   &kp END   &none   ,   S_STAR S_N7 S_N8  S_N9  S_FSLH   ,  &trans ,
-        &trans  ,  S_EQUAL   &kp LEFT &kp DOWN &kp RIGHT &none ,   S_PLUS S_N4  S_N5  S_N6  S_MINUS ,  &trans ,
+        &trans  ,  S_EQUAL   &kp LEFT &kp DOWN &kp RIGHT &kp ° ,   S_PLUS S_N4  S_N5  S_N6  S_MINUS ,  &trans ,
           &trans  ,  &none &none &none  &kp LS(N1) S_PRCNT            ,   S_DOT S_N1  &deux_perso &trois_perso S_COMMA  ,  &trans ,
               &trans , &trans , &trans   ,   &trans , S_N0 , &kp LEFT_SHIFT
       )>;
